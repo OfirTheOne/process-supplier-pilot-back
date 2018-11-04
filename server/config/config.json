@@ -1,0 +1,12 @@
+{
+    "dev" : {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb://localhost:27017/process_supplier_dev_db"
+
+    },    
+    "test" : {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb://localhost:27017/process_supplier_test_db"
+    }
+    
+}
