@@ -5,9 +5,9 @@ import * as express from "express";
 import * as bodyParser from "body-parser";
 import './config/config.ts';
 import { appRoutes } from './routes/app.routes';
-import { whiteOrgins } from './whitelist-orgins';
 
 
+const whiteOrgins = JSON.parse(process.env.whiteOrgins) as string[];
 const PORT = 3000;
 
 class ExpressApp {

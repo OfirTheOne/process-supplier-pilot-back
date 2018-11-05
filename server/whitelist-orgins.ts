@@ -1,13 +1,10 @@
-export const whiteOrgins: string[] = [
-    'https://secret-depths-77560.herokuapp.com/',
-    'https://secret-depths-77560.herokuapp.com',
+export const devWhiteOrgins: string[] = [
     'http://localhost:4200',
     'http://localhost:4200/', 
     'localhost:4200/',
     'localhost:4200', 
-    'http://localhost:3000', 
-    'http://localhost:3000/', 
-    'localhost:3000/',
-    'localhost:3000'
-
+];
+export const prodWhiteOrgins: string[] = [
+    'https://secret-depths-77560.herokuapp.com/',
+    'https://secret-depths-77560.herokuapp.com',
 ]
