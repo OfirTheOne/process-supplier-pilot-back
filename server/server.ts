@@ -7,7 +7,7 @@ import './config/config.ts';
 import { appRoutes } from './routes/app.routes';
 
 
-const whiteOrgins = JSON.parse(process.env.whiteOrgins) as string[];
+const whiteOrgins = JSON.parse(process.env.WHITE_ORGINS) as string[];
 const PORT = 3000;
 
 class ExpressApp {

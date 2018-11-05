@@ -2,13 +2,13 @@
     "dev" : {
         "PORT": 3000,
         "MONGODB_URI": "mongodb://localhost:27017/process_supplier_dev_db",
-        "WHITE_ORGINS": "['http://localhost:4200','http://localhost:4200/','localhost:4200/','localhost:4200']"
+        "WHITE_ORGINS": "[\"http://localhost:4200\",\"http://localhost:4200/\",\"localhost:4200/\",\"localhost:4200\"]"
 
     },    
     "test" : {
         "PORT": 3000,
         "MONGODB_URI": "mongodb://localhost:27017/process_supplier_test_db",
-        "WHITE_ORGINS": "['http://localhost:4200','http://localhost:4200/','localhost:4200/','localhost:4200']"
+        "WHITE_ORGINS": "[\"http://localhost:4200\",\"http://localhost:4200/\",\"localhost:4200/\",\"localhost:4200\"]"
 
     }
     
